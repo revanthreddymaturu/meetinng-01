@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meetings-add-desktop.css">
+    <title>Add meeting</title>
+
+</head>
+<body>
+    <div class="nav-bar">
+        <nav class="nav-bar-nav">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav-link" href="index.html">Calendar</a>     
+                </li>
+
+                <li>
+                    <a class="nav-link" href="meetings.html">Meetings</a>
+
+                </li>
+
+                <li>
+                    <a class="nav-link" href="teams.html"> Teams</a>
+                </li>
+
+                <li>
+Hello <span class="user-name-nav" style="color: rgb(67, 192, 241);" >jane.doe@example.com!</span>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#"> Logout</a>
+
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+<div class="main-part">
+        <div class="heading">
+                <h2>Meetings</h2>
+        </div>
+
+        <div class="search-add-toggle">
+                
+                    <a href="meetings.html">
+                        Filter / Search meetings
+                    </a>
+                
+                    <a href="meetings-add.html">
+                        Add a meeting
+                    </a>
+                    <div class="dummy-div">
+
+                    </div>
+
+        </div>
+    <div class="form-body">
+
+        <div class="meetings-bottomhead">
+            <h2>Add a new meeting</h2>
+        </div>
+        <div class="add-date">
+            <label for="add-meet-date">
+                Date
+            </label>
+            <input type="date" id="add-meet-date" name="add-meet-date">
+
+        </div>
+
+        <div class="start-time">
+            <label id="strt-time">
+                Start time (hh:mm)
+            </label>
+            <input id="strt-time" type="time" name="strt-time">
+
+        </div>
+
+        <div class="end-time">
+            <label for="nd-time">
+                End time (hh:mm)
+            </label>
+            <input id="nd-time" type="time" name="nd-time">
+
+
+
+
+        </div>
+
+        <div class="desc">
+            <label for="descr">
+                Description
+            </label>
+            <input type="text" id="descr" name="descr" placeholder="What is agenda of the meeting?">
+        </div>
+
+        <div class="email-ids">
+            <label for="email-id">
+                Email IDs of attendees, or team's short
+            </label>
+            <input type="text" id="email-id" name="email-id" placeholder="john@example.com, @annual-day, mark@example.com">
+            <p>Seperate email ids / team short names by commas -team short names always begin with @</p>
+        </div>
+
+        <div class="add-btn">
+            <button id="add-btn-btn">Add meeting</button>
+        </div>
+
+
+    </div>      
+
+
+</div>
+
+      
+
+</body>
+</html>
