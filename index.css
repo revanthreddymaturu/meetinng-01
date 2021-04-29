@@ -1,0 +1,132 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6EEFF;
+    margin: 2rem;
+ 
+}
+.login-page
+{
+  max-width: 65%;
+  margin:5rem;
+  margin-left: 10rem;
+
+  
+}
+.login-box
+{
+    max-width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.6em;
+    justify-content: center;
+  align-items: center;
+    margin: 2em;
+    padding: 1em;
+
+
+}
+.login-form
+{
+   
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+   
+}
+.login-form input
+{
+   border-radius: 0.3em;
+   border: none;
+   height: 50px;
+   max-width: 80%;
+   margin-bottom: 1em;
+   margin-left: 1em;
+   font-size: 20px;
+   
+   
+}
+
+::placeholder
+{
+    font-weight: 600;
+}
+#sbmt-btn
+{
+    
+    background-color: rgb(81, 81, 209);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    max-width: 100%;
+}
+.sign-up-ask,.forgot-pass
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(155, 154, 154);
+}
+.sign-up-ask a,.forgot-pass a
+{
+    color: blue;
+}
+h2
+
+{
+    color: rgb(10, 10, 66);
+}
+h4
+{
+    color: silver;
+    margin-top: 0.3em;
+}
+
+@media screen and (max-width:798px)
+{
+   
+    .login-page
+{
+  max-width: 100%;
+  margin:4rem 0;
+  margin-top: 10rem;
+  
+}
+
+}
+@media screen and (max-width:455px)
+{
+   body
+   {
+       margin: 0%;
+   }
+    .login-page
+{
+  max-width: 100%;
+  margin:4rem 0;
+
+  margin-top: 10rem;
+}
+
+}
+@media screen and (max-width:378px)
+{
+   body
+   {
+       margin: 0%;
+   }
+    .login-page
+{
+  max-width: 100%;
+  margin:4rem 0;
+
+  
+}
+.login-box
+{
+    margin: 1rem;
+    margin-top: 10rem;
+}
+
+}

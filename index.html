@@ -4,204 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
-    <link rel="stylesheet" href="index-desktop.css">
-    
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
 </head>
 <body>
-    <div class="nav-bar">
-        <nav class="nav-bar-nav">
-            <ul class="nav-list">
-                <li>
-                    <a class="nav-link" href="index.html">Calendar</a>     
-                </li>
-
-                <li>
-                    <a class="nav-link" href="meetings.html">Meetings</a>
-
-                </li>
-
-                <li>
-                    <a class="nav-link" href="teams.html"> Teams</a>
-                </li>
-
-                <li>
-Hello <span class="user-name-nav" style="color: rgb(67, 192, 241);" >jane.doe@example.com!</span>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="#"> Logout</a>
-
-                </li>
-            </ul>
-
-        </nav>
-    </div>
-
-    <div class="body-part">
-        <div class="body-heading">
-            <h2>Calendar</h2>
-        </div>
-
-        <div class="sub-head">
-            <div class="sub-list">
-                <ul class="sub-l1">
-                    <li>
-                       <h3 style="margin: 0%;"> 12 September 2020</h3>
-                    </li>
-
-                    <li style="color: gray; font-weight: 900;">
-                        Saturday
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="sub-l2">
-                <label for="date-set">
-
+    <div class="login-page">
+        <div class="login-box">
+            <h2>Welcome Back</h2>
+            <h4>Enter your credentials to access your account</h4>
+            <form action="../public/calendar.html" class="login-form" >
+                <label for="username">
+                  
                 </label>
-                <input type="date" class="date-set" id="date-set">
+                <span>  <i style="color: blue;" class="fas fa-envelope fa-1x"></i>  <input type="email" id="username" required placeholder=" Enter your username" name="username">
+
+                </span>
+               
+                <label for="passwd">
+                  
+                </label>
+               <span><i style="color: blue;" class="fas fa-lock fa-1x"></i> <input type="password" id="passwd" placeholder="Enter your password" required name="passwd"></span>  
+               
+
+                <label for="sbmt-btn"></label>
+                <input type="submit" id="sbmt-btn" value="Sign in" >
+            </form>
+
+            <div class="sign-up-ask">
+                New to here? <a>Sign Up </a>   
             </div>
-
-            
-        </div>
-
-        <div class="task-list">
-            <div class="task">
-
-
-            </div>
-
-            <div class="task">
-
-                
-            </div>
-
-            <div class="task">
-
-                
-            </div>
-
-            <div class="task">
-
-                
-            </div>
-
-            <div class="task">
-
-                
-            </div>
-
-
-            <div class="task">
-
-                
-            </div>
-
-
-            <div class="task">
-
-                
-            </div>
-
-
-
-            <div class="task">
-
-                
+            <br>
+            <div class="forgot-pass">
+                Forgot Password? <a>Reset Password</a>
             </div>
         </div>
+        
     </div>
 
-    <div class="tasks-part">
-        <ol class="task-list" start="0">
-            <li class="tasks">
-
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-            <li class="tasks">
-                
-            </li>
-
-        </ol>
-    </div>
 </body>
 </html>
